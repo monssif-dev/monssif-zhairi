@@ -347,14 +347,14 @@ h1, h2, h3, h4, .bg-text, .nav-logo {
     font-size: 2rem;
 }
 
-/* Arsenal Editorial List */
-.arsenal-wrapper {
+/* Technologies Editorial List */
+.Technologies-wrapper {
     margin-top: 4rem;
     border-top: 1px solid rgba(255, 255, 255, 0.1);
     display: flex;
     flex-direction: column;
 }
-.arsenal-item {
+.Technologies-item {
     position: relative;
     padding: 3rem 2rem;
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
@@ -365,7 +365,7 @@ h1, h2, h3, h4, .bg-text, .nav-logo {
     cursor: none;
     transition: transform 0.3s ease;
 }
-.arsenal-bg {
+.Technologies-bg {
     position: absolute;
     top: 0;
     left: 0;
@@ -377,11 +377,11 @@ h1, h2, h3, h4, .bg-text, .nav-logo {
     z-index: 0;
     transition: transform 0.6s cubic-bezier(0.19, 1, 0.22, 1);
 }
-.arsenal-item:hover .arsenal-bg {
+.Technologies-item:hover .Technologies-bg {
     transform: scaleY(1);
     transform-origin: top;
 }
-.arsenal-name {
+.Technologies-name {
     font-size: clamp(2.5rem, 5vw, 6rem);
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
@@ -390,7 +390,7 @@ h1, h2, h3, h4, .bg-text, .nav-logo {
     position: relative;
     transition: color 0.4s ease, transform 0.6s cubic-bezier(0.19, 1, 0.22, 1);
 }
-.arsenal-role {
+.Technologies-role {
     font-size: 1.2rem;
     color: #888;
     z-index: 1;
@@ -399,11 +399,11 @@ h1, h2, h3, h4, .bg-text, .nav-logo {
     text-transform: uppercase;
     letter-spacing: 2px;
 }
-.arsenal-item:hover .arsenal-name {
+.Technologies-item:hover .Technologies-name {
     color: #000;
     transform: translateX(40px);
 }
-.arsenal-item:hover .arsenal-role {
+.Technologies-item:hover .Technologies-role {
     color: #000;
     transform: translateX(-40px);
 }
